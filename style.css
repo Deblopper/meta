@@ -37,7 +37,11 @@ hr {
 	border-color:		#aaa transparent #fff;
 }
 header {
-	margin: 5rem auto;
+	margin:				5rem auto;
+}
+section {
+	width:				800px;
+	margin:				auto;
 }
 
 
