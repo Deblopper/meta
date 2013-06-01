@@ -43,6 +43,9 @@ section {
 	width:				800px;
 	margin:				auto;
 }
+blockquote {
+	text-align:			right;
+}
 
 
 /* 1. ID & Class */
@@ -66,8 +69,24 @@ section {
 	font-weight:		400;
 	text-align:			center;
 }
+#copyleft {
+	text-align:			center;
+	font-size:			0.8rem;
+	font-weight:		normal;
+	font-family:		Sans-serif;
+}
+#copyleft span {
+	font-weight:		bold;
+	display:			inline-block;
+	-webkit-transform:	scaleX(-1);
+	transform:			scaleX(-1);
+}
+#copyleft a { color: #c44; }
 
 /* 2. Pseudoclass */
 #heading a:hover {
 	text-shadow:		0 0 2px #333;
+}
+#copyleft a:hover {
+	color:				#422;
 }
